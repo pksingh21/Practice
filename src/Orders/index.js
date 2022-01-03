@@ -4,6 +4,7 @@ import React from "react";
 import useWindowDimensions from "./useWindowDimensions";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import IconButton from "@mui/material/IconButton";
+import BottomBar from "../BottomBar/index";
 function Index() {
   const [data, setData] = React.useState([
     {
@@ -116,6 +117,7 @@ function Index() {
           {console.log(height, width)}
         </Grid>
       )}
+      <BottomBar />
     </>
   );
 }
