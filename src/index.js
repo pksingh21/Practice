@@ -5,12 +5,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Orders from "./Orders/index";
+import ProfilePage from "./ProfilePage/index";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="orders" element={<Orders />} />
+        <Route path="profilepage" element={<ProfilePage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
