@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Orders from "./Orders/index";
 import ProfilePage from "./ProfilePage/index";
+import LoginConfusion from "./ErrorsPage/indexLoginConfusion.jsx";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -13,6 +14,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="orders" element={<Orders />} />
         <Route path="profilepage" element={<ProfilePage />} />
+        <Route path="/errors/LoginConfusion" element={<LoginConfusion />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

@@ -145,10 +145,9 @@ export default function InputAdornments() {
       >
         <Button
           variant="outlined"
-          endIcon={<SaveIcon style={{ color: "white" }} />}
+          endIcon={<SaveIcon style={{ color: "white", paddingRight: "3%" }} />}
           style={{
             width: "70%",
-
             borderColor: " #27AE60",
             backgroundColor: "#27AE60",
           }}
@@ -158,7 +157,7 @@ export default function InputAdornments() {
               alignItems: "center",
               justifyContent: "center",
               display: "flex",
-              width: "450px",
+              width: "95%",
               color: "white",
             }}
           >
